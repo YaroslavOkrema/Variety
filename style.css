@@ -1,4 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Rokkitt&display=swap');
+:root{
+    --color1: #9b59b6;
+    --color2: #95a5a6;
+}
+
+/*Цвет*/
+
+.color1{
+    color: var(--color1);
+}
+
+.color2{
+    color: var(--color2);
+}
 
 body{
     font-family: "Rokkitt";
@@ -64,4 +78,17 @@ container{
     text-transform: uppercase;
     color: #fff !important;
     background-color: #9b59b6 !important;
+}
+
+/*About*/
+.about{
+    padding: 150px 0;
+}
+.about-title2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.about-text2{
+    font-size: 15px;
 }
