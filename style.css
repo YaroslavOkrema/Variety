@@ -15,6 +15,7 @@
 }
 
 body{
+    width: 100%;
     font-family: "Rokkitt";
     font-weight: 400;
 }
@@ -27,7 +28,7 @@ header{
     background-size: cover;
 }
 
-container{
+.container{
     width: 100%;
     max-width: 960px;
 }
@@ -80,6 +81,16 @@ container{
     background-color: #9b59b6 !important;
 }
 
+.btn-itd2{
+    
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: #fff !important;
+    background-color: #9b59b6 !important;
+}
+
 /*About*/
 .about{
     padding: 150px 0;
@@ -91,4 +102,46 @@ container{
 
 .about-text2{
     font-size: 15px;
+}
+
+/*Photo*/
+.img{
+    padding: 150px 0;
+}
+.photo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo__item{
+    border: 150px solid #fff;
+}
+.photo__inner{
+    width: 100%;
+    
+}
+.photo-wrap{
+    flex-wrap: wrap;
+}
+.photo-wrap__item{
+    margin-right: 40px;
+    margin-bottom: 55px;
+}
+.photo__content{
+    background-color: #9b59b6;
+    height: 90px;
+    margin-top: -90px;
+    opacity: 0;
+}
+.photo__content:hover{
+    opacity: 0.99;
+}
+.img__title{
+    font-size: 30px;
+    font-family: "Rokkitt";
+    color: #fff;
+    
+}
+.img__text{
+    font-size: 15px;
+    color: #6b3f7d;
 }
