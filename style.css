@@ -95,6 +95,9 @@ header{
 .about{
     padding: 150px 0;
 }
+.about__title{
+    font-size: 36px;
+}
 .about-title2 {
     font-size: 20px;
     font-weight: 700;
@@ -131,6 +134,8 @@ header{
     height: 90px;
     margin-top: -90px;
     opacity: 0;
+
+    transition: .2s;
 }
 .photo__content:hover{
     opacity: 0.99;
@@ -144,4 +149,85 @@ header{
 .img__text{
     font-size: 15px;
     color: #6b3f7d;
+}
+.search {
+    position: absolute;
+    top: 222%;
+    left: 78%;
+    z-index: 2;
+
+    color: #fff;
+    background-color: #9b59b6;
+    height: 38px;
+    width: 38px;
+}
+
+.search1{
+    position: absolute;
+    top: 183%;
+    left: 33%;
+    z-index: 2;
+
+    color: #fff;
+    background-color: #9b59b6;
+    height: 38px;
+    width: 38px;
+}
+
+.search2{
+    position: absolute;
+    top: 183%;
+    left: 78%;
+    z-index: 2;
+
+    color: #fff;
+    background-color: #9b59b6;
+    height: 38px;
+    width: 38px;
+}
+
+.search3{
+    position: absolute;
+    top: 222%;
+    left: 33%;
+    z-index: 2;
+
+    color: #fff;
+    background-color: #9b59b6;
+    height: 38px;
+    width: 38px;
+}
+
+.pon{
+    color: #fff;
+    margin-left: 10px;
+}
+
+/*Data*/
+
+.data__title{
+    font-size: 60px;
+    font-family: "Rokkitt";
+}
+.name__inner{
+    
+}
+ .email{
+    background-color: #e4e8e8;
+    height: 70px;
+    width: 369px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.help{
+    background-color: #e4e8e8;
+    height: 250px;
+    width: 768px;
+    margin-left: 278px;
+}
+.name__text{
+    color: #cecece;
+    font-size: 30px;
+    font-family: "Rokkitt";
+    margin-left: 10px;
 }
