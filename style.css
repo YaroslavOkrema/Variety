@@ -204,13 +204,15 @@ header{
 }
 
 /*Data*/
-
+.data{
+    padding: 150px 0;
+}
 .data__title{
     font-size: 60px;
     font-family: "Rokkitt";
 }
-.name__inner{
-    
+.help__inner{
+    margin-left: 245px;
 }
  .email{
     background-color: #e4e8e8;
@@ -219,15 +221,92 @@ header{
     margin-left: 30px;
     margin-bottom: 30px;
 }
+.name{
+    background-color: #e4e8e8;
+    height: 70px;
+    width: 417px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
 .help{
     background-color: #e4e8e8;
     height: 250px;
-    width: 768px;
+    width: 795px;
     margin-left: 278px;
 }
+
 .name__text{
     color: #cecece;
     font-size: 30px;
     font-family: "Rokkitt";
     margin-left: 10px;
+}
+
+  
+
+/*Footer*/
+.footer{
+    padding: 130px 0;
+    background: #9b59b6 center no-repeat;
+    background-size: cover;
+}
+.footer__bg{
+    position: absolute;
+    top: 366%;
+    left: 30%;
+    z-index: 1;
+}
+.footer__icon{
+    font-size: 40px;
+    color: #9b59b6;
+    margin-left: -6px;
+
+    position: absolute;
+    top: 368%;
+    left: 32%;
+    z-index: 2;
+}
+
+.footer__bg2{
+    position: absolute;
+    top: 366%;
+    left: 48%;
+    z-index: 1;
+}
+.footer__icon2{
+    font-size: 40px;
+    color: #9b59b6;
+    margin-left: -6px;
+
+    position: absolute;
+    top: 368%;
+    left: 50%;
+    z-index: 2;
+}
+
+.footer__bg3{
+    position: absolute;
+    top: 366%;
+    left: 66%;
+    z-index: 1;
+}
+.footer__icon3{
+    font-size: 40px;
+    color: #9b59b6;
+    margin-left: -6px;
+
+    position: absolute;
+    top: 368%;
+    left: 68%;
+    z-index: 2;
+}
+
+.icon__color{
+    color: #9b59b6;
+}
+
+.footer__text{
+    font-size: 25px;
+    color: #fff;
+    font-family: "Rokkitt";
 }
